@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Particles</title>
+	<link rel="stylesheet" href="index.css" />
+	<link rel="stylesheet" href="../src/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="../src/bootstrap.min.css"/>
+	<script type="text/javascript" src="../src/jquery-3.3.1.min.js"></script>
+	<script src="../src/bootstrap.min.js"></script>
+</head>
+<body>
+	<div id="mydiv" style="height:900px;"></div>
+	<div id="nav">
+		<ul id="nav_li">
+			<li>
+				<a target="iframe" href="../main/main.html"><img src="../img/123.png" /></a>
+			</li>
+			<li class="sera">
+				<input type="text" id="search" />
+				<i class="fa fa-search"  style="" aria-hidden="true"></i>
+			</li>
+			<li class="add_book">
+				<div data-toggle="modal" data-target="#myModal">
+					<i class="fa fa-plus-square-o" aria-hidden="true"></i>
+					<a>上传图书</a>
+				</div>
+			</li>
+			<li class="list">
+				<i id="person" class="fa fa-list-ul" aria-hidden="true"></i>
+			</li>
+			<li class="nav_signOut">
+				<a id=" " href="../index.html"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+			</li>
+		</ul>
+		<ul id="find_content">
+			<!--<li data-index-book="" onclick="handleBookDetail()">12345</li>-->
+			<!--<li data-index-book="" onclick="handleBookDetail()">12345</li>-->
+			<!--<li data-index-book="" onclick="handleBookDetail()">12345</li>-->
+		</ul>
+		<div id="personcenter">
+			<ul>
+				<li>
+					<i class="fa fa-address-book" aria-hidden="true"></i>
+					<a target="iframe" href="../info/info.html"><span>个人信息</span></a>
+				</li>
+				<li>
+					<i class="fa fa-bell" aria-hidden="true"></i>
+					<a target="iframe" href="../myBook/index.html"><span>我的上传</span></a>
+				</li>
+				<li>
+					<i class="fa fa-bookmark" aria-hidden="true"></i>
+					<a target="iframe" href="../myCollect/mycollect.html"><span>我的收藏</span></a>
+				</li>
+				<li>
+					<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+					<a target="iframe" href="../myAppoint/myappoint.html"><span>我的预约</span></a>
+				</li>
+				<li>
+					<i class="fa fa-map" aria-hidden="true"></i>
+					<a target="iframe" href="../myborrow/myborrow.html"><span>我的借阅</span></a>
+				</li>
+			</ul>
+			<span id="trg"></span>
+		</div>
+
+	</div>
+	<div id="content_">
+		<iframe id="iframe" name="iframe" src="../main/main.html"></iframe>
+	</div>
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+						&times;
+					</button>
+					<div class="login_btn">
+						<h2>上传图书</h2>
+					</div>
+				</div>
+				<div class="modal-body">
+					<div>
+						<span>书名：</span>
+						<input type="text" id="book_name" />
+					</div>
+					<div>
+						<span>类型：</span>
+						<input type="text" id="book_type"  />
+					</div>
+					<div>
+						<span>作者：</span>
+						<input type="text" id="book_author"  />
+					</div>
+					<div>
+						<span>下架时间：</span>
+						<input type="date" id="book_del"  />
+					</div>
+					<div>
+						<span>介绍：</span>
+						<br/>
+						<textarea id="book_intro" ></textarea>
+					</div>
+					<div>
+						<span>图片：</span>
+						<input type="file" onchange="selectImage(this)" id="book_img" />
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">
+						关闭
+					</button>
+					<button id="btn_add_book" type="button" class="btn btn-primary">
+						确认
+					</button>
+				</div>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+	<script src="index.js" ></script>
+</body>
+</html>

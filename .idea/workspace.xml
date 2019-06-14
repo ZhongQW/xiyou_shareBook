@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd210d6a-69dd-49ad-a19b-13e4a6e2c5f6" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="图书共享系统" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="librarydetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detail/librarydetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="librarydetail.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/detail/librarydetail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!block;n#handlePublic#0" />
+                <element signature="n#style#0;n#input#2;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nav/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="79" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nav/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myappoint.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myAppoint/myappoint.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myborrow.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myborrow/myborrow.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="e#344#833#0" />
+                <element signature="e#525#739#0" />
+                <element signature="e#596#678#0" />
+                <element signature="e#682#729#0" />
+                <element signature="e#769#827#0" />
+                <element signature="e#1125#2723#0" />
+                <element signature="e#1200#2442#0" />
+                <element signature="e#1854#2428#0" />
+                <element signature="e#2446#2713#0" />
+                <element signature="e#2755#2815#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="librarydetail.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detail/librarydetail.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding>
+                <element signature="e#6#137#0" />
+                <element signature="e#156#179#0" />
+                <element signature="e#190#215#0" />
+                <element signature="e#223#249#0" />
+                <element signature="e#251#281#0" />
+                <element signature="e#288#309#0" />
+                <element signature="e#320#341#0" />
+                <element signature="e#351#371#0" />
+                <element signature="e#386#434#0" />
+                <element signature="e#442#581#0" />
+                <element signature="e#587#666#0" />
+                <element signature="e#674#816#0" />
+                <element signature="e#834#1085#0" />
+                <element signature="e#1168#1196#0" />
+                <element signature="e#1202#1226#0" />
+                <element signature="e#1362#1422#0" />
+                <element signature="e#1434#1453#0" />
+                <element signature="e#1468#1548#0" />
+                <element signature="e#1551#1596#0" />
+                <element signature="e#1605#1688#0" />
+                <element signature="e#1699#1748#0" />
+                <element signature="e#1762#1814#0" />
+                <element signature="e#1825#1893#0" />
+                <element signature="e#1910#2097#0" />
+                <element signature="e#2111#2395#0" />
+                <element signature="e#2416#2464#0" />
+                <element signature="e#2472#2540#0" />
+                <element signature="e#2564#2591#0" />
+                <element signature="e#2600#2681#0" />
+                <element signature="e#2688#2749#0" />
+                <element signature="e#2766#2804#0" />
+                <element signature="e#2811#2853#0" />
+                <element signature="e#2862#2910#0" />
+                <element signature="e#2918#3063#0" />
+                <element signature="e#3072#3180#0" />
+                <element signature="e#3188#3212#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="72" column="25" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="25" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>window</find>
+      <find>format</find>
+      <find>DateDiff</find>
+      <find>p_cover</find>
+      <find>input</find>
+      <find>background-color</find>
+      <find>review</find>
+      <find>discuss</find>
+      <find>detail</find>
+      <find>handleRemove</find>
+      <find>no_btn_remove_book</find>
+      <find>handleNoCollect</find>
+      <find>bookName</find>
+      <find>storage</find>
+      <find>section-1</find>
+      <find>section-2</find>
+      <find>border</find>
+      <find>sess</find>
+      <find>handleRent</find>
+      <find>notice</find>
+      <find>debu</find>
+      <find>debugg</find>
+      <find>成功</find>
+      <find>收藏</find>
+      <find>coll_btn</find>
+      <find>containerDiv</find>
+      <find>debug</find>
+      <find>message</find>
+      <find>debugger</find>
+      <find>diff</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/personal/bootstrap-3.3.7-dist/js/index.js" />
+        <option value="$PROJECT_DIR$/personal/bootstrap-3.3.7-dist/css/index.css" />
+        <option value="$PROJECT_DIR$/personal/bootstrap-3.3.7-dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/1.html" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/login/login.css" />
+        <option value="$PROJECT_DIR$/info/info.css" />
+        <option value="$PROJECT_DIR$/myBook/mybook.html" />
+        <option value="$PROJECT_DIR$/login/login.html" />
+        <option value="$PROJECT_DIR$/personal/index.css" />
+        <option value="$PROJECT_DIR$/message/mess.css" />
+        <option value="$PROJECT_DIR$/myBook/myborrow.html" />
+        <option value="$PROJECT_DIR$/login/login.js" />
+        <option value="$PROJECT_DIR$/personal/图书管理主界面.html" />
+        <option value="$PROJECT_DIR$/public/index.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/index.css" />
+        <option value="$PROJECT_DIR$/personal/index.js" />
+        <option value="$PROJECT_DIR$/info/info.js" />
+        <option value="$PROJECT_DIR$/src/login.js" />
+        <option value="$PROJECT_DIR$/message/mess.js" />
+        <option value="$PROJECT_DIR$/message/mess.html" />
+        <option value="$PROJECT_DIR$/info/info.html" />
+        <option value="$PROJECT_DIR$/11.js" />
+        <option value="$PROJECT_DIR$/manage/index.html" />
+        <option value="$PROJECT_DIR$/nav/index.html" />
+        <option value="$USER_HOME$/Desktop/图书共享系统 (1)/detail/librarydetail.js" />
+        <option value="$PROJECT_DIR$/myBook/index.html" />
+        <option value="$PROJECT_DIR$/myBook/mybook.js" />
+        <option value="$PROJECT_DIR$/myborrow/myborrow.html" />
+        <option value="$PROJECT_DIR$/myborrow/myborrow.css" />
+        <option value="$PROJECT_DIR$/myBook/mybook.css" />
+        <option value="$PROJECT_DIR$/myAppoint/myappoint.css" />
+        <option value="$PROJECT_DIR$/myCollect/mycollect.js" />
+        <option value="$PROJECT_DIR$/myCollect/mycollect.css" />
+        <option value="$PROJECT_DIR$/myCollect/mycollect.html" />
+        <option value="$PROJECT_DIR$/manage/index.js" />
+        <option value="$PROJECT_DIR$/main/main.html" />
+        <option value="$PROJECT_DIR$/main/main.css" />
+        <option value="$PROJECT_DIR$/nav/index.css" />
+        <option value="$PROJECT_DIR$/detail/librarydetail.html" />
+        <option value="$PROJECT_DIR$/main/main.js" />
+        <option value="$PROJECT_DIR$/myAppoint/myappoint.js" />
+        <option value="$PROJECT_DIR$/myborrow/myborrow.js" />
+        <option value="$PROJECT_DIR$/detail/librarydetail.css" />
+        <option value="$PROJECT_DIR$/t.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/myAppoint/myappoint.html" />
+        <option value="$PROJECT_DIR$/nav/index.js" />
+        <option value="$PROJECT_DIR$/detail/librarydetail.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="583" />
+    <option name="y" value="8" />
+    <option name="width" value="795" />
+    <option name="height" value="689" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="图书共享系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图书共享系统" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="图书共享系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图书共享系统" type="462c0819:PsiDirectoryNode" />
+              <item name="detail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="图书共享系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图书共享系统" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="图书共享系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图书共享系统" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="图书共享系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图书共享系统" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="图书共享系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图书共享系统" type="462c0819:PsiDirectoryNode" />
+              <item name="myAppoint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="图书共享系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图书共享系统" type="462c0819:PsiDirectoryNode" />
+              <item name="myBook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="图书共享系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图书共享系统" type="462c0819:PsiDirectoryNode" />
+              <item name="myborrow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="图书共享系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图书共享系统" type="462c0819:PsiDirectoryNode" />
+              <item name="myCollect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="图书共享系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图书共享系统" type="462c0819:PsiDirectoryNode" />
+              <item name="nav" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\图书共享系统\src" />
+      <recent name="E:\图书共享系统\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\图书共享系统\detail" />
+      <recent name="E:\图书共享系统\src" />
+      <recent name="E:\图书共享系统" />
+      <recent name="E:\图书共享系统\myBook" />
+      <recent name="E:\图书共享系统\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.11.js">
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/图书共享系统/nav/index.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/图书共享系统/index.html" />
+    <configuration name="11.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="11.js" working-dir="$PROJECT_DIR$" />
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="Node.js.11.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.11.js" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd210d6a-69dd-49ad-a19b-13e4a6e2c5f6" name="Default" comment="" />
+      <created>1536753008974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536753008974</updated>
+      <workItem from="1536753010385" duration="3473000" />
+      <workItem from="1536802911719" duration="22711000" />
+      <workItem from="1536912811612" duration="5757000" />
+      <workItem from="1537012058495" duration="8413000" />
+      <workItem from="1537106463384" duration="4233000" />
+      <workItem from="1537268757751" duration="3142000" />
+      <workItem from="1537354688684" duration="1751000" />
+      <workItem from="1537873153612" duration="3931000" />
+      <workItem from="1537879224694" duration="29000" />
+      <workItem from="1537935965550" duration="21496000" />
+      <workItem from="1538055265988" duration="4040000" />
+      <workItem from="1538120792378" duration="1342000" />
+      <workItem from="1538122301740" duration="1368000" />
+      <workItem from="1538142593628" duration="2390000" />
+      <workItem from="1538252251479" duration="5476000" />
+      <workItem from="1538797958063" duration="8649000" />
+      <workItem from="1538894259340" duration="1102000" />
+      <workItem from="1539000541605" duration="607000" />
+      <workItem from="1543388191407" duration="1687000" />
+      <workItem from="1543457909080" duration="25518000" />
+      <workItem from="1543814056892" duration="4880000" />
+      <workItem from="1543991968780" duration="12104000" />
+      <workItem from="1544100750780" duration="684000" />
+      <workItem from="1544248515763" duration="7039000" />
+      <workItem from="1544354445964" duration="6248000" />
+      <workItem from="1544596264380" duration="5321000" />
+      <workItem from="1544878738854" duration="6093000" />
+      <workItem from="1544926200386" duration="33403000" />
+      <workItem from="1545022946547" duration="16196000" />
+      <workItem from="1545121760526" duration="11311000" />
+      <workItem from="1545135853914" duration="14350000" />
+      <workItem from="1545179938995" duration="26542000" />
+      <workItem from="1545220179140" duration="601000" />
+      <workItem from="1545225196461" duration="1502000" />
+      <workItem from="1545564851422" duration="38000" />
+      <workItem from="1545738897216" duration="527000" />
+      <workItem from="1547528485733" duration="25000" />
+      <workItem from="1553674002772" duration="383000" />
+      <workItem from="1553680727032" duration="11000" />
+      <workItem from="1559527827311" duration="4204000" />
+      <workItem from="1559609704691" duration="2606000" />
+      <workItem from="1559649092089" duration="692000" />
+      <workItem from="1559696124141" duration="1883000" />
+      <workItem from="1559708408907" duration="540000" />
+      <workItem from="1559745482486" duration="666000" />
+      <workItem from="1559787747277" duration="397000" />
+      <workItem from="1559792669183" duration="9861000" />
+      <workItem from="1560141180478" duration="20694000" />
+      <workItem from="1560251932792" duration="61208000" />
+      <workItem from="1560471476112" duration="6912000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="384036000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1252" height="679" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.498452" visible="true" weight="0.19967133" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32972136" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32906765" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32906765" />
+      <window_info id="Structure" order="0" sideWeight="0.501548" side_tool="true" weight="0.15550596" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32906765" />
+      <window_info anchor="bottom" id="Favorites" order="3" side_tool="true" weight="0.32844037" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3985375" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="41" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/myBook/myborrow.html" />
+    <entry file="file://$PROJECT_DIR$/login/login.html" />
+    <entry file="file://$PROJECT_DIR$/login/login.js" />
+    <entry file="file://$PROJECT_DIR$/info/info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="29" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/查看 眼睛 实时分析.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/canvas-particle.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/mess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/mess.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6531">
+          <caret line="311" selection-start-line="6" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.js" />
+    <entry file="file://$PROJECT_DIR$/src/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="4" column="5234" selection-start-line="4" selection-start-column="5216" selection-end-line="4" selection-end-column="5234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/main/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="102" column="17" lean-forward="true" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/main/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/图书共享系统/nav/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/图书共享系统/nav/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/src/pages/barstatus/index.js" />
+    <entry file="file://$USER_HOME$/Desktop/src/utils/dateUtil.js" />
+    <entry file="file://$USER_HOME$/Desktop/图书共享系统 (1)/detail/librarydetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1613">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/图书共享系统 (1)/detail/librarydetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="143" column="26" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myBook/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="106" selection-start-line="10" selection-start-column="106" selection-end-line="10" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myBook/mybook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="124" column="32" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myborrow/myborrow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myborrow/myborrow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="42" selection-start-line="42" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myBook/mybook.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myCollect/mycollect.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myCollect/mycollect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="19" column="14" selection-start-line="19" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/librarydetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/librarydetail (1).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="165" column="101" lean-forward="true" selection-start-line="165" selection-start-column="101" selection-end-line="165" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="172" column="1" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="194" column="15" selection-start-line="194" selection-start-column="12" selection-end-line="194" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="185" column="27" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!block;n#operateFormatter#0" />
+            <element signature="n#!!block;n#SignOut#0" />
+            <element signature="n#!!block;n#getElementByAttr#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myAppoint/myappoint.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myCollect/mycollect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="128" column="62" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="62" />
+          <folding>
+            <element signature="n#!!block;n#borrow#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="225" column="70" selection-start-line="225" selection-start-column="70" selection-end-line="225" selection-end-column="70" />
+          <folding>
+            <element signature="n#!!block;n#show_div#0" />
+            <element signature="n#!!block;n#selectImage#0" />
+            <element signature="n#!!block;n#hidden_div#0" />
+            <element signature="n#!!block;n#handleDetails#0" />
+            <element signature="n#!!block;n#handlePage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myAppoint/myappoint.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="37" column="81" selection-start-line="37" selection-start-column="81" selection-end-line="37" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="25" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myborrow/myborrow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#344#833#0" />
+            <element signature="e#525#739#0" />
+            <element signature="e#596#678#0" />
+            <element signature="e#682#729#0" />
+            <element signature="e#769#827#0" />
+            <element signature="e#1125#2723#0" />
+            <element signature="e#1200#2442#0" />
+            <element signature="e#1854#2428#0" />
+            <element signature="e#2446#2713#0" />
+            <element signature="e#2755#2815#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detail/librarydetail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#137#0" />
+            <element signature="e#156#179#0" />
+            <element signature="e#190#215#0" />
+            <element signature="e#223#249#0" />
+            <element signature="e#251#281#0" />
+            <element signature="e#288#309#0" />
+            <element signature="e#320#341#0" />
+            <element signature="e#351#371#0" />
+            <element signature="e#386#434#0" />
+            <element signature="e#442#581#0" />
+            <element signature="e#587#666#0" />
+            <element signature="e#674#816#0" />
+            <element signature="e#834#1085#0" />
+            <element signature="e#1168#1196#0" />
+            <element signature="e#1202#1226#0" />
+            <element signature="e#1362#1422#0" />
+            <element signature="e#1434#1453#0" />
+            <element signature="e#1468#1548#0" />
+            <element signature="e#1551#1596#0" />
+            <element signature="e#1605#1688#0" />
+            <element signature="e#1699#1748#0" />
+            <element signature="e#1762#1814#0" />
+            <element signature="e#1825#1893#0" />
+            <element signature="e#1910#2097#0" />
+            <element signature="e#2111#2395#0" />
+            <element signature="e#2416#2464#0" />
+            <element signature="e#2472#2540#0" />
+            <element signature="e#2564#2591#0" />
+            <element signature="e#2600#2681#0" />
+            <element signature="e#2688#2749#0" />
+            <element signature="e#2766#2804#0" />
+            <element signature="e#2811#2853#0" />
+            <element signature="e#2862#2910#0" />
+            <element signature="e#2918#3063#0" />
+            <element signature="e#3072#3180#0" />
+            <element signature="e#3188#3212#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myAppoint/myappoint.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp12412/usr/zhongqw/detail/librarydetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="79" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detail/librarydetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detail/librarydetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!block;n#handlePublic#0" />
+            <element signature="n#style#0;n#input#2;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录 | 注册</title>
+    <link rel="stylesheet" href="./src/login.css" />
+    <script src="./src/login.js"></script>
+    <script src="./src/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div id="container">
+    <ul id="img">
+        <li class="opa-on"><img src="./src/img/img1.jpg" alt="img1"></li>
+        <li><img src="./src/img/img1.jpg" alt="img2"></li>
+        <li><img src="./src/img/img2.jpg" alt="img3"></li>
+        <li><img src="./src/img/img3.jpg" alt="img4"></li>
+        <li><img src="./src/img/img4.jpg" alt="img5"></li>
+    </ul>
+    <ul id="index">
+        <li class="on"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <a href="#" id="prev" class="arrow"><</a>
+    <a href="#" id="next" class="arrow">></a>
+</div>
+
+<img src="./src/img/title.png" id="img_title" />
+
+<div id="login_regist">
+    <div class="login_btn">
+        <span id="loginBtn" style="cursor: pointer">登录 | </span>
+        <span id="registerBtn" style="cursor: pointer">注册</span>
+    </div>
+    <div id="login">
+        <div class="login_name">
+            <i class="person"></i>
+            <input type="text" placeholder="用户名"/>
+        </div>
+        <div class="login_pass">
+            <i class="key_"></i>
+            <input type="password" placeholder="密码"/>
+            <i class="eye_b"></i>
+        </div>
+        <div class="login_check">
+            <span>记住密码</span>
+            <input style="margin-left: 10px" type="checkbox"/>
+            <a href="javascript:;">忘记密码？</a>
+        </div>
+        <div id="login_btn">登录</div>
+        <span class="btn_regis">还没有账号，<a href="javascript:;">立马注册！</a></span>
+    </div>
+    <div id="register">
+        <div class="login_name">
+            <i class="person"></i>
+            <input type="text" placeholder="用户名" id="R_name"/>
+        </div>
+        <div class="phone_">
+            <i class="phone"></i>
+            <input type="text" placeholder="手机号" id="R_phone"/>
+        </div>
+        <div class="login_pass">
+            <i class="key_"></i>
+            <input type="password" placeholder="密码" id="R_pass"/>
+            <i class="eye_b"></i>
+        </div>
+        <div id="pass_strength">弱</div>
+        <div id="register_btn">注册</div>
+        <span class="explain">点击 “注册” 即表示您同意并愿意遵守西邮共享系统<a href="javascrit:;">用户协议</a>和<a href="javascrit:;">隐私政策</a>。</span>
+        <span class="btn_login">已有账号，<a href="javascript:;">立马登录！</a></span>
+    </div>
+    <div class="error_">手机号错误，请输入正确的手机号！</div>
+</div>
+</body>
+</html>

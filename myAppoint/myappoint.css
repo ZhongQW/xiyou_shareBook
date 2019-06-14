@@ -1,0 +1,52 @@
+/*
+    Create by WebStorm.
+    User: ZhongQw
+    Date: 2018/12/17
+    Time: 13:11
+*/
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+table td, table th {
+    border: 1px solid #eeeeee;
+    color: #666;
+    height: 45px;
+}
+table thead th {
+    background-color: rgba(161,124,52, 0.4);
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+table tr:nth-child(odd) {
+    background: #fff;
+}
+table tr:nth-child(even) {
+    background-color: rgba(178,165,139, 0.1);
+}
+.none_book{
+    margin-top: 200px;
+    color: silver;
+    font-size: 20px;
+    margin-left: 100px;
+    /*border: #2b669a solid 1px;*/
+}
+caption{
+    margin-top: 60px;
+}
+.tip{
+    position: fixed;
+    left: 10px;
+    top: 100px;
+    float: right;
+    color: grey;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: solid 1px #eeeeee;
+    padding: 10px;
+    background-color: #eeeeee;
+}

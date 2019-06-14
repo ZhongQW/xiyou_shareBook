@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="librarydetail.css">
+    <title>图书详情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/bootstrap.min.css"/>
+    <script type="text/javascript" src="../src/jquery-3.3.1.min.js"></script>
+    <script src="../src/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../src/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script src="librarydetail.js"></script>
+</head>
+<body>
+        <table id="detail">
+            <tr>
+                <td id="icon"><div ><img src="../img/你坏.jpg" id = "cover"></div>
+                   </td>
+                <td id="message">
+                    <!--<ul>-->
+                        <!--<li><i class="fa fa-star-half-o" aria-hidden="true"></i>书名：<span>《我不》</span></li>-->
+                        <!--<li><i class="fa fa-star-half-o" aria-hidden="true"></i>作者：<span>大冰</span></li>-->
+                        <!--<li><i class="fa fa-star-half-o" aria-hidden="true"></i>类型：<span>名著</span></li>-->
+                        <!--<li><i class="fa fa-star-half-o" aria-hidden="true"></i>出版社：<span>雅众文化/浙江文艺出版社</span></li>-->
+                        <!--<li><i class="fa fa-star-half-o" aria-hidden="true"></i>出品方：<span> 雅众文化</span></li>-->
+                        <!--<li><i class="fa fa-star-half-o" aria-hidden="true"></i>当当价格：<span> 279.00元</span></li>-->
+                        <!--<li><i class="fa fa-star-half-o" aria-hidden="true"></i>所有者：<span>zqw</span></li>-->
+                        <!--<li><i class="fa fa-star-half-o" aria-hidden="true"></i> 描述：<span>善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸。 善意能够帮人捕捉并建立起独特的幸福感。 “我不”是一种善意坦然，也是一种善意的随缘，更是一句善意的自省。-->
+<!--《我不》——百万级畅销书作家大冰2017年新书。书中的每一个故事都可以叫《我不》： 十年如一日坚守藏地、为藏民基础教育尽一己之力的书店老板；亦正亦邪浪荡洒脱，散尽家财救助灾区、带重病母亲游历世界的东北浪子；木讷寡言对绝症女友不离不弃的流浪歌手；心系31年前阵亡战友、不愿偷生于世、为古城安危置生死于度外的不死老兵……-->
+<!--书中的每一个有情众生，都在对命运说：我不！ 玩命拼命不认命，我命由我不由天。</span></li>-->
+                        <!--<li>-->
+                            <!--<input type="button" onclick="handleRent(this)" disabled value="借阅">-->
+                            <!--<input type="button" onclick="handleColl(this)" disabled value="收藏">-->
+                            <!--<input type="button" onclick="handleReserve(this)" value="预约">-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                </td>
+            </tr>
+        </table>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="time_title">
+                            <h2>设置预计归还时间</h2>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <p>本书最晚归还时间为：<span  class="book_date" style="color: red"></span></p>
+                            <p>注：借书的最晚归还时间应该早于该时间~</p>
+                        </div>
+                        <div>
+                            <span>最晚还书时间：</span>
+                            <input type="date" id="book_end_time"  />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                            关闭
+                        </button>
+                        <button id="btn_add_book" type="button" class="btn btn-primary">
+                            确认
+                        </button>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    <div id = "discuss">
+        <i class="fa fa-envira" aria-hidden="true"></i>
+        <span>评论</span>
+        <hr/>
+        <div id="comment">
+            <!--<div class="review">-->
+                    <!--<table >-->
+                        <!--<tr>-->
+                            <!--<th rowspan="2"> <img src="./img/picture1.png" class="rounded-circle"> </th>-->
+                            <!--<td  class="username">用户一</td>-->
+                        <!--</tr>-->
+                        <!--<tr><td class="data">2018/12/3</td>-->
+                        <!--</tr>-->
+                    <!--</table>-->
+                    <!--<div class="comment">-->
+                        <!--内容很好看，值得一看。-->
+                    <!--</div>-->
+            <!--</div>-->
+            <!--<hr/>-->
+            <!--<div class="review">-->
+                    <!--<table >-->
+                        <!--<tr>-->
+                            <!--<th rowspan="2"> <img src="./img/picture1.png" class="rounded-circle"> </th>-->
+                            <!--<td  class="username">用户一</td>-->
+                        <!--</tr>-->
+                        <!--<tr><td class="data">2018/12/3</td>-->
+                        <!--</tr>-->
+                    <!--</table>-->
+                    <!--<div class="comment">-->
+                        <!--内容很感人。-->
+                    <!--</div>-->
+            <!--</div>-->
+            <!--<hr/>-->
+        </div>
+        <div id="public">
+            <div>
+                <form>
+                    <textarea placeholder="看完了吧，快来发表评论，分享给一起看书的小伙伴吧！" id="talk"></textarea>
+                    <input onclick="handlePublic()" type="submit" value="发表评论">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

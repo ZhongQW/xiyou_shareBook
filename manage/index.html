@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="../src/jquery-3.3.1.min.js"></script>
+    <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../src/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="index.css" />
+    <script src="./index.js"></script>
+</head>
+<body>
+<div id="nav">
+    <img src="../img/logo.png" width="140px" height="50px"/>
+    <i id="person" class="fa fa-sign-out" aria-hidden="true" onclick="SignOut()"></i>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <ul id="main-nav" class="nav nav-tabs nav-stacked" style="">
+                <li>
+                    <a href="#systemSetting"  class="nav-header collapsed" data-toggle="collapse">
+                        <i class="glyphicon glyphicon-credit-card"></i>
+                        个人管理
+                        <span class="pull-right glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                    <ul id="systemSetting" class="nav nav-list collapse secondmenu" style="height: 0px;">
+                        <li><a href="#" data-li-index="0" data-li-logo="a" class="tab_btn" ><i class="glyphicon glyphicon-asterisk"></i>个人信息</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#BookSetting" class="nav-header collapsed" data-toggle="collapse">
+                        <i class="glyphicon glyphicon-cog"></i>
+                        系统管理
+                        <span class="pull-right glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                    <ul id="BookSetting" class="nav nav-list collapse secondmenu" style="height: 0;">
+                        <li><a href="#" data-li-index="1" data-li-logo="a" onclick="handleBook(this)" class="tab_btn"><i class="glyphicon glyphicon-signal"></i>图书审核</a></li>
+                        <li><a href="#" data-li-index="2" data-li-logo="a" onclick="handleUser(this)" class="tab_btn"><i class="glyphicon glyphicon-user"></i>用户管理</a></li>
+                        <li><a href="#" data-li-index="3" data-li-logo="a" onclick="handleDelBook(this)" class="tab_btn"><i class="glyphicon glyphicon-file"></i>下架图书</a></li>
+                        <li><a href="#" data-li-index="4" data-li-logo="a" onclick="handleExpire(this)" class="tab_btn"><i class="glyphicon glyphicon-list-alt"></i>逾期管理</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" data-li-index="5" data-li-logo="a" class="tab_btn">
+                        <i class="glyphicon glyphicon-fire"></i>
+                        关于系统
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10" id="div_">
+            <div class="tab_div div" id="div2" style="display: block" data-div-index="0">
+                <table class="pass_table">
+                     <tr>
+                        <td>
+                            <h3>欢迎你，管理员</h3>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td id="td2">
+                            <span>请输入密码：</span>
+                            <input type="password" id="newPasword" />
+                        </td>
+                     </tr>
+                     <tr>
+                        <td id="td3">
+                            <span>重复密码：</span>
+                            <input type="password" id="rePasword" />
+                        </td>
+                     </tr>
+                     <tr>
+                        <td id="td4">
+                            <input type="button" id="handlePass" value="确认修改" />
+                        </td>
+                     </tr>
+            </table>
+            </div>
+            <div class="tab_div div" id="div3" style="display: none" data-div-index="1">
+                <table class="table table-hover tab_">
+                <thead>
+                <tr>
+                    <th>书名</th>
+                    <th>拥有者</th>
+                    <th>是否上架</th>
+                </tr>
+                </thead>
+                <tbody>
+<!--                <tr data-index-book = '1'>
+                    <td>《一个人的朝圣》</td>
+                    <td>马欢</td>
+                    <td>
+                        <button type="button" class="btn btn-link" onclick="handleAgree(this)">同意</button>
+                        <button type="button" class="btn btn-link" onclick="handleReject(this)">拒绝</button>
+                    </td>
+                </tr>-->
+                </tbody>
+            </table>
+            </div>
+            <div class="tab_div div" id="div4" style="display: none" data-div-index="2">
+                <table class="table table-hover tab_">
+                <thead>
+                <tr>
+                    <th>用户名</th>
+                    <th>手机号</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <!--<tr data-index-user = '1'>-->
+                    <!--<td>《一个人的朝圣》</td>-->
+                    <!--<td>2018-5-20</td>-->
+                    <!--<td> <button type="button" class="btn btn-link" onclick="delUser(this)">删除</button> </td>-->
+                <!--</tr>-->
+                </tbody>
+            </table>
+            </div>
+            <div class="tab_div div" id="div5" style="display: none" data-div-index="3">
+                <table class="table table-hover tab_">
+                    <thead>
+                    <tr>
+                        <th>书名</th>
+                        <th>借阅者</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!--<tr data-index-book-del="1">-->
+                        <!--<td>《一个人的朝圣》</td>-->
+                        <!--<td>马欢</td>-->
+                        <!--<td> <button type="button" class="btn btn-link" onclick="handleOfflineBook()">下架</button> </td>-->
+                    <!--</tr>-->
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab_div div" id="div6" style="display: none" data-div-index="4">
+                <table class="table table-hover tab_">
+                    <thead>
+                    <tr>
+                        <th>书名</th>
+                        <th>拥有者</th>
+                        <th>借阅者</th>
+                        <th>逾期时间</th>
+                        <th>联系方式</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!--<tr data-index-expire = '1'>-->
+                        <!--<td>《一个人的朝圣》</td>-->
+                        <!--<td>马欢</td>-->
+                        <!--<td>马欢</td>-->
+                        <!--<td>2018-6-20</td>-->
+                        <!--<td>2018-6-20</td>-->
+                    <!--</tr>-->
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab_div div" id="div7" style="display: none" data-div-index="5">
+                <p>关于系统</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

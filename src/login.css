@@ -1,0 +1,311 @@
+/*
+    Create by WebStorm.
+    User: ZhongQw
+    Date: 2018/11/29
+    Time: 16:38
+*/
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+
+#container{
+    position: absolute;
+    width: 630px;
+    height: 690px;
+    /*border: 1px red solid;*/
+}
+
+#img{
+    width: 830px;
+    height: 690px;
+}
+
+#img li{
+    width: 830px;
+    height: 690px;
+    position: absolute;
+    /*z-index: -1;*/
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+img{
+    width:100%;height:100%;
+}
+
+#index{
+    position: absolute;
+    left: 340px;
+    bottom: 20px;
+}
+
+#index li{
+    width:8px;
+    height: 8px;
+    border: solid 1px grey;
+    border-radius: 100%;
+    background-color: #eee;
+    display: inline-block;
+}
+
+#index .on{
+    background-color: black;
+}
+
+#img .opa-on{
+    opacity: 1;
+}
+
+.arrow {
+    position: absolute;
+    top: 325px;
+    /*z-index: 2;*/
+    display: none;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+    background-color: RGBA(0, 0, 0, .3);
+}
+
+.arrow:hover {
+    background-color: RGBA(0, 0, 0, .7);
+}
+
+#container:hover .arrow {
+    display: block;
+}
+
+#prev {
+    left: 15px;
+    text-decoration: none;
+}
+
+#next {
+    left: 780px;
+    text-decoration: none;
+}
+
+#img_title{
+    width: 400px;
+    height: 170px;
+    position: relative;
+    top: 14px;
+    left: 900px;
+}
+
+
+/*登录注册*/
+#login_regist{
+    position: relative;
+    left: 830px;
+    top: 50px;
+    border:  solid #eeeeee 1px;
+    height: 375px;
+    width: 400px;
+    background: white;
+    border-radius: 8px;
+    margin-left: 80px;
+}
+.login_btn{
+    /*border: red solid 1px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 123px;
+}
+.login_btn span{
+    color: #13386a;
+    font: 30px/40px "Wawati SC";
+}
+.login_btn_click span{
+    color: #555555;
+}
+.login_name{
+    border-radius: 5px;
+    height: 48px;
+    width: 270px;
+    margin-left: 65px;
+    background: white;
+    border: #CACAC9 solid 1px;
+}
+.login_name input{
+    /*border: red solid 1px;*/
+    height: 46px;
+    width: 200px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: white;
+}
+.person:before{
+    content: url("./img/人员 (1).png");
+    margin-left: 10px;
+}
+.login_pass{
+    border-radius: 5px;
+    height: 48px;
+    width: 270px;
+    margin-left: 65px;
+    background: white;
+    border: #CACAC9 solid 1px;
+}
+.login_pass input{
+    height: 44px;
+    width: 170px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: white;
+}
+.key_:before{
+    content: url("./img/锁子 (3).png");
+    margin-left: 10px;
+}
+.eye_b:before{
+    margin-left: 20px;
+    content: url("./img/未标题-1.png");
+}
+#pass_strength{
+    width: 30px;
+    height: 30px;
+    background-color: #e60000;
+    display: none;
+    position: absolute;
+    left: 340px;
+    top: 210px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 10px;
+}
+.eye_k:before{
+    margin-left: 20px;
+    content: url("./img/眼睛-闭.png");
+}
+.login_check{
+    margin-top: 15px;
+    /*border: red 1px solid;*/
+}
+.login_check span{
+    color: gray;
+    font-size: 5px;
+    margin-left: 65px;
+    margin-right: -10px;
+}
+.login_check a{
+    font-size: 5px;
+    margin-left: 95px;
+}
+#login_btn{
+    width: 270px;
+    height: 48px;
+    border-radius: 20px;
+    outline: none;
+    background-color: rgba(49,148,208, 0.8);
+    color: white;
+    text-align: center;
+    font: 20px/48px "微软雅黑";
+    margin-left: 55px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+#login_btn{
+    background-color: rgba(49,148,208, 1);
+}
+.btn_regis{
+    font-size: 10px;
+    margin-left: 160px;
+}
+
+.phone_{
+    border-radius: 5px;
+    height: 48px;
+    width: 270px;
+    margin-left: 65px;
+    background: white;
+    border: #CACAC9 solid 1px;
+}
+.phone_ input{
+    height: 44px;
+    width: 170px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: white;
+}
+.phone:before{
+    content: url("./img/手机.png");
+    margin-left: 10px;
+}
+#register_btn{
+    width: 270px;
+    height: 48px;
+    border-radius: 20px;
+    outline: none;
+    background-color: rgba(66,192,46, 0.8);
+    color: white;
+    text-align: center;
+    font: 20px/48px "微软雅黑";
+    margin-left: 65px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+#register_btn:hover{
+    background-color: rgba(66,192,46, 1);
+}
+.explain{
+    margin-left: 60px;
+    font-size: 10px;
+    color: #969696;
+    display: block;
+    width: 280px;
+    font-family: "微软雅黑";
+    margin-bottom: 20px;
+
+}
+.explain a{
+    font-size: 10px;
+    font-family: "微软雅黑";
+    text-decoration: none;
+    color: #3194D0;
+}
+.btn_login{
+    font-size: 10px;
+    color: black;
+    display: inline;
+    margin-left: 179px;
+}
+.btn_login a{
+    font-size: 10px;
+    font-family: "微软雅黑";
+}
+#register{
+    display: none;
+}
+.error_{
+    width: 310px;
+    height: 20px;
+    border: red 1px solid;
+    position: absolute;
+    top: 74px;
+    left: 40px;
+    color: red;
+    font: 12px/20px "宋体";
+    border-radius: 6px;
+    text-indent: 20px;
+    background-color: white;
+    display: none;
+    transition: 3s;
+}
+
+

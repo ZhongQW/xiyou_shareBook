@@ -1,0 +1,65 @@
+/*
+    Create by WebStorm.
+    User: ZhongQw
+    Date: 2018/12/8
+    Time: 14:46
+*/
+body>div{
+    width: 400px;
+    margin: 0 auto;
+    /*border: black 1px solid;*/
+    padding: 10px;
+}
+span{
+    font-size: 20px;
+}
+input{
+    outline: none;
+    width: 200px;
+    height: 30px;
+    text-indent: 2px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: solid 1px grey;
+}
+#name span{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 100px;
+}
+#phone input{
+    outline: none;
+}
+#name, #phone, #password{
+    margin-top: 30px;
+}
+#password input:nth-child(2){
+    margin-left: 21px;
+}
+#password input:nth-child(4){
+    margin-top: 10px;
+    margin-left: 128px;
+}
+#updatePhone{
+    width: 50px;
+    height: 32px;
+    float: right;
+    background-color: rgba(100,149,237, 0.5);
+    border: none;
+    transition: .3s;
+    border-radius: 5px;
+}
+#updatePhone:hover{
+    background-color: rgba(100,149,237, 1);
+}
+#updatePass {
+    width: 50px;
+    height: 32px;
+    float: right;
+    background-color: rgba(100,149,237, 0.5);
+    border: none;
+    border-radius: 5px;
+}
+#updatePass:hover{
+    background-color: rgba(100,149,237, 1);
+}

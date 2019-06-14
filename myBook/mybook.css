@@ -1,0 +1,69 @@
+/*
+    Create by WebStorm.
+    User: ZhongQw
+    Date: 2018/12/8
+    Time: 14:23
+*/
+h2{
+    width: 120px;
+    margin: 0 auto;
+}
+.pointer:hover{
+    cursor: pointer;
+}
+.btn_remove_book{
+    width: 80px;
+    height: 45px;
+    background-color: #b9def0;
+    border: none;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+.btn_remove_book:hover{
+    background-color: #2b669a;
+    color: #eeeeee;
+}
+.no_btn_remove_book{
+    width: 80px;
+    height: 45px;
+    border: none;
+    background-color: #eeeeee;
+    border-radius: 5px;
+
+}
+#section-1 table{
+    width: 1000px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+#section-1 table td, #section-1 table th {
+    border: 1px solid #cad9ea;
+    color: #666;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+#section-1 table thead th {
+    background-color: rgba(44,96,120, 0.3);
+    width: 100px;
+}
+#section-1 table tr:nth-child(odd) {
+    background: #fff;
+}
+#section-1 table tr:hover {
+    background: #fff;
+}
+#section-1 table tr:nth-child(even) {
+    background: #F5FAFA;
+}
+.none_book{
+    margin-top: 200px;
+    color: silver;
+    font-size: 20px;
+    margin-left: 100px;
+    /*border: #2b669a solid 1px;*/
+}
+caption{
+    margin-top: 60px;
+}

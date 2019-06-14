@@ -1,0 +1,23 @@
+/*
+    Create by WebStorm.
+    User: ZhongQw
+    Date: 2018/12/16
+    Time: 15:13
+*/
+#div{
+    padding-top: 80px;
+    padding-left: 80px;
+    list-style: none;
+    /*border: red solid 1px;*/
+}
+#div li span{
+    font-size: 20px;
+    color: black;
+}
+#div li{
+    margin-top: 20px;
+}
+#div li i{
+    font-size: 30px;
+    color: #b9def0;
+}
